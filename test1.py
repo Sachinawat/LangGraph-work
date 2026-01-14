@@ -15,3 +15,5 @@ graph = graph.compile()
 result = graph.invoke({"messages": [{"role": "user", "content": "hi!"}]})
 print(result)
 
+
+
