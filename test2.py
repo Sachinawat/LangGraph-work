@@ -129,16 +129,16 @@
 
 
 
-# from langchain.agents import create_agent
+from langchain.agents import create_agent
 
-# def weather_agent(city:str) -> str:
-#     return f"the weather in {city} is sunny"
+def weather_agent(city:str) -> str:
+    return f"the weather in {city} is sunny"
 
-# agent=create_agent(
-#     tools=[weather_agent],
-#     model="gpt-3.5-turbo",
-#     system_prompt="you are a helpful assistant"
-# )
+agent=create_agent(
+    tools=[weather_agent],
+    model="gpt-3.5-turbo",
+    system_prompt="you are a helpful assistant"
+)
 
 
 # agent.invoke(
