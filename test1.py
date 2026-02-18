@@ -18,3 +18,4 @@ print(result)
 
 
 
+#close all open files
